@@ -1,0 +1,38 @@
+body {
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+.capa{
+	background-color: #D6BB9D;
+}
+
+.gradiente-malandro {
+	background: #F0E7E2; /* For browsers that do not support gradients */
+	/*background: radial-gradient(ellipse at center, #C3AA94, #AE957F), url(http://i.stack.imgur.com/PEnJm.png);*/
+	background: radial-gradient(ellipse at center, rgba(205,179,152, .8) 0%,#ae957f 100%), 
+    url(http://i.stack.imgur.com/PEnJm.png);
+}
+
+.white {
+	color: #fff;
+}
+
+.bold {
+	font-weight: 600;
+}
+
+.title {
+	font-size: 3.5em;
+	margin-top: 2.5em;
+	margin-bottom: 0;
+	font-weight: 500;
+}
+
+.subtitle {
+	font-size: 1.8em;
+	margin-top: 0;
+	font-weight: 100;
+	padding-left: 1em;
+}
